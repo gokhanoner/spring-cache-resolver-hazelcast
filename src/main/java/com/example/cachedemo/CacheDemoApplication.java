@@ -30,7 +30,7 @@ public class CacheDemoApplication {
 	@Bean
 	ClientConfig clientConfig() {
 		ClientConfig clientConfig = new ClientConfig();
-		clientConfig.getGroupConfig().setName("gokhan");
+		clientConfig.getGroupConfig().setName("cache-test");
 		return clientConfig;
 	}
 
